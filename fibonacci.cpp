@@ -16,6 +16,6 @@ int fibonacci(int n){
 	}
 }
 int main(){
-	cout << fibonacci(10);
+	cout << fibonacci(50);
 }
 //this approach is called memoization -> storing results to use them later.

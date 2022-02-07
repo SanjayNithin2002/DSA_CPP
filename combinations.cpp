@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int memoization[100][100];
+long double memoization[100][100];
 int c(int n,int r){
 	if(r == 0 || n == r){
 		memoization[n][r] = 1;
